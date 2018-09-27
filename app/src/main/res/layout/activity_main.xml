@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ThankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU ITS"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/GuysTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You guys rock!"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ThankTextView"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/InstallTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Installed"
+        android:textColor="#ffffff"
+        android:layout_below="@id/GuysTextView"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/StudioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Studio"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/PyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"/>
+     <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/trill" />
+
+</RelativeLayout>
